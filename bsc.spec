@@ -7,7 +7,7 @@ Group:      	File tools
 URL:        	http://www.beesoft.org/bsc.html
 Source:     	http://www.beesoft.org/download/bsc_%{version}_src.tar.gz
 BuildRoot:  	%_tmppath/%name-buildroot
-BuildRequires:	libqt3-devel
+BuildRequires:	libqt-devel
 Requires(post,postun): desktop-common-data
 
 %description
