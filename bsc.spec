@@ -29,7 +29,6 @@ install -m 0755 bsc $RPM_BUILD_ROOT/%_bindir
 mkdir -p $RPM_BUILD_ROOT/%_datadir/applications
 cat > $RPM_BUILD_ROOT/%_datadir/applications/mandriva-%name.desktop << EOF
 [Desktop Entry]
-Encoding=UTF-8
 Name=Beesoft Commander
 Comment=Beesoft Commander file manager
 Exec=%_bindir/bsc
