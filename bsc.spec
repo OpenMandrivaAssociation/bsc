@@ -41,11 +41,15 @@ EOF
 mkdir -p $RPM_BUILD_ROOT/%_datadir/pixmaps
 install images/%name.png $RPM_BUILD_ROOT/%_datadir/pixmaps
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %clean
 rm -rf $RPM_BUILD_ROOT
