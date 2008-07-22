@@ -1,6 +1,6 @@
 Name:       	bsc
 Version:    	2.27
-Release:    	%mkrel 1
+Release:    	%mkrel 3
 Summary:    	Beesoft Commander file manager 
 License:    	GPL
 Group:      	File tools
