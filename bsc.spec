@@ -1,6 +1,6 @@
 Name:       	bsc
 Version:    	4.1.0
-Release:    	%mkrel 1
+Release:    	%mkrel 2
 Summary:    	Beesoft Commander file manager
 License:    	GPLv2+
 Group:      	File tools
