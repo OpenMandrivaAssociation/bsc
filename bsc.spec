@@ -4,7 +4,7 @@ Release:    	3
 Summary:    	Beesoft Commander file manager
 License:    	GPLv2+
 Group:      	File tools
-URL:        	http://www.beesoft.org/index.php?id=bsc
+URL:        	https://www.beesoft.org/index.php?id=bsc
 Source:     	http://www.beesoft.org/download/%{name}_%{version}_src.tar.bz2
 BuildRoot:  	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt4-devel
